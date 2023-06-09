@@ -18,8 +18,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Header />
-      <body className={saira.className}>{children}</body>
+  
+      <body className={saira.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   )
 }
