@@ -3,7 +3,6 @@
 import { styled } from 'styled-components';
 import { Saira_Stencil_One } from 'next/font/google';
 import { PrimaryInputSearchIcon } from './primary-input';
-import { CartIcon } from './cart-icon';
 import { CartControl } from './cart-control';
 
 const sairaStencil  = Saira_Stencil_One({ 
